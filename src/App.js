@@ -50,7 +50,7 @@ const ratingChange = (e) => {
   setRating(e.target.value);
 }
 
-const filteredMovies = movies.filter((movie)=>{
+const filteredMovies = film.filter((movie)=>{
   return movie.title.toLowerCase().includes(title.toLowerCase()) && (rating==="" || movie.rating === Number(rating))
 })
 

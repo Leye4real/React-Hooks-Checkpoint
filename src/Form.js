@@ -19,6 +19,10 @@ const newMovie = {
 };
 
 addMovieprop(newMovie)
+setTitle("")
+setDescription("")
+setPosterURL("")
+setRating("")
 
 
 }

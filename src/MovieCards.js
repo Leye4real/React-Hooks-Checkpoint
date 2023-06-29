@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card'
 
 const MovieCards = ({movieprop}) =>{
     return (
+    <div className="d-flex card">
     <Card>
        <Card.Body>
         <Card.Title><h2>{movieprop.title}</h2></Card.Title>
@@ -12,6 +13,7 @@ const MovieCards = ({movieprop}) =>{
         <Card.Text><strong>{movieprop.rating}</strong></Card.Text>
        </Card.Body>
     </Card>
+    </div>
     )
 }
 
