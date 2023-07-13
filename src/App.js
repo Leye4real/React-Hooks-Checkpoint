@@ -74,7 +74,7 @@ setFilm([...film, newMovie])
       <h1>Movie App</h1>
     <Form addMovieprop={addMovie}/>
     <Filter titleprop={title} ratingprop={rating} onTitleChange={titleChange} onRatingChange={ratingChange} />
-    <Router>
+    {/* <Router> */}
         <Routes>
           <Route
             path="/"
@@ -85,7 +85,7 @@ setFilm([...film, newMovie])
             element={<MovieDescription movies={filteredMovies} />}
           />
         </Routes>
-      </Router>
+      {/* </Router> */}
     </div>
   );
 }
